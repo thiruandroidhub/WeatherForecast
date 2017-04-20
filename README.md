@@ -30,7 +30,7 @@ TDD - I have followed TDD in order to write tests that unit test my business log
 Mockito - Mockito is used to mock dependencies and to run the tests.
 Fest - I have used Fest as a library for easy writing of tests that gives meaningful statements in the code.
 
-F# urther Improvements:
+# Further Improvements:
 
 1. Improved Dagger Scope 
 As this is a simple app which has a screen (Activity) I didn't need to introduce ActivityScope for Dagger to provide the dependencies just for the activity. I could improve this - then it is possible to save the dagger graph to persist dependencies on configuration changes. Instead, currently all the dependencies are Application Scoped and kept through out the whole application life cycle, which is not great in memory allocation.
