@@ -1,4 +1,5 @@
 # WeatherForecast
+This project is to show case how to use MVP and Rx together in an Android app.
 The application to get weather update is presented with a screen, that shows the current location and the weather along with the list of 5 day weather forecasts!
 
 The architecture and technologies that I have picked for this work are listed below.
@@ -10,25 +11,25 @@ Cleaner Architecture - The project uses the Cleaner Architecture which allows me
 MVP - I have followed the Model View Presenter pattern to separate business logic (Core) from Android specific classes (app).
 
 # Inversion Of Control
-Dagger - I have used Dagger 2 as the DI framework to give the IOC in my layers of code.
+I have used Dagger 2 as the DI framework to give the IOC in my layers of code.
 
 # Concurrency
-RxAndroid - I have used Rx as a framework to asynchronously fetch data from server which gives the concurrency management in the project.
+I have used Rx as a framework to asynchronously fetch data from server which gives the concurrency management in the project.
 
 # Android
 The Location Manager from the Android SDK is used to find user's current location.
 
 # Libraries
-Retrofit - To make HTTP calls to get the weather update from the API.
-ButterKnife - I have used butter knife library for easy view binding.
+- Retrofit - To make HTTP calls to get the weather update from the API.
+- ButterKnife - I have used butter knife library for easy view binding.
 
 # Caching
 I have implemented an in memory caching mechanism to persist weather update data to avoid calling the network every time on configuration changes.
 
 # Test Driven Development
-TDD - I have followed TDD in order to write tests that unit test my business logic which gives a good test coverage for the project.
-Mockito - Mockito is used to mock dependencies and to run the tests.
-Fest - I have used Fest as a library for easy writing of tests that gives meaningful statements in the code.
+- TDD - I have followed TDD in order to write tests that unit test my business logic which gives a good test coverage for the project.
+- Mockito - Mockito is used to mock dependencies and to run the tests.
+- Fest - I have used Fest as a library for easy writing of tests that gives meaningful statements in the code.
 
 # Further Improvements:
 
