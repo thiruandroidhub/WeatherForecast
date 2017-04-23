@@ -1,5 +1,5 @@
 # WeatherForecast
-This project is to show case how to use MVP and Rx together in an Android app.
+This project is to showcase how to use MVP and Rx together in an Android app.
 The application to get weather update is presented with a screen, that shows the current location and the weather along with the list of 5 day weather forecasts!
 
 The architecture and technologies that I have picked for this work are listed below.
